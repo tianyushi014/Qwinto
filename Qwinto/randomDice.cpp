@@ -1,8 +1,3 @@
-//Course: CSI 2372 A
-//Project
-//Student Name: Tianyu Shi
-//Student Number: 7875409
-
 #include <iostream>
 #include <random>
 

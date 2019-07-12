@@ -1,8 +1,3 @@
-//Course: CSI 2372 A
-//Project (work alone - implement Qwinto only)
-//Student Name: Tianyu Shi
-//Student Number: 7875409
-
 #include "scoreSheet.h"
 using namespace std;
 
