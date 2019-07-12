@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891B4D3022D926E000D0B5E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891B4D2F22D926E000D0B5E3 /* main.cpp */; };
+		891B4D4622D9277700D0B5E3 /* scoreSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891B4D3622D9277600D0B5E3 /* scoreSheet.cpp */; };
+		891B4D4722D9277700D0B5E3 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891B4D3722D9277600D0B5E3 /* player.cpp */; };
+		891B4D4822D9277700D0B5E3 /* rollOfDice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891B4D3E22D9277600D0B5E3 /* rollOfDice.cpp */; };
+		891B4D4922D9277700D0B5E3 /* randomDice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891B4D3F22D9277600D0B5E3 /* randomDice.cpp */; };
+		891B4D4A22D9277700D0B5E3 /* dice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891B4D4122D9277600D0B5E3 /* dice.cpp */; };
+		891B4D4B22D9277700D0B5E3 /* qwintoScoreSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891B4D4222D9277700D0B5E3 /* qwintoScoreSheet.cpp */; };
+		891B4D4C22D9277700D0B5E3 /* qwintoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 891B4D4322D9277700D0B5E3 /* qwintoPlayer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		891B4D2A22D926E000D0B5E3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		891B4D2C22D926E000D0B5E3 /* Qwinto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Qwinto; sourceTree = BUILT_PRODUCTS_DIR; };
+		891B4D2F22D926E000D0B5E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		891B4D3622D9277600D0B5E3 /* scoreSheet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scoreSheet.cpp; sourceTree = "<group>"; };
+		891B4D3722D9277600D0B5E3 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		891B4D3822D9277600D0B5E3 /* randomDice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randomDice.h; sourceTree = "<group>"; };
+		891B4D3922D9277600D0B5E3 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		891B4D3A22D9277600D0B5E3 /* qwintoScoreSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwintoScoreSheet.h; sourceTree = "<group>"; };
+		891B4D3B22D9277600D0B5E3 /* rollOfDice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rollOfDice.h; sourceTree = "<group>"; };
+		891B4D3C22D9277600D0B5E3 /* scoreSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreSheet.h; sourceTree = "<group>"; };
+		891B4D3D22D9277600D0B5E3 /* colour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colour.h; sourceTree = "<group>"; };
+		891B4D3E22D9277600D0B5E3 /* rollOfDice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rollOfDice.cpp; sourceTree = "<group>"; };
+		891B4D3F22D9277600D0B5E3 /* randomDice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = randomDice.cpp; sourceTree = "<group>"; };
+		891B4D4022D9277600D0B5E3 /* dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dice.h; sourceTree = "<group>"; };
+		891B4D4122D9277600D0B5E3 /* dice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dice.cpp; sourceTree = "<group>"; };
+		891B4D4222D9277700D0B5E3 /* qwintoScoreSheet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qwintoScoreSheet.cpp; sourceTree = "<group>"; };
+		891B4D4322D9277700D0B5E3 /* qwintoPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qwintoPlayer.cpp; sourceTree = "<group>"; };
+		891B4D4422D9277700D0B5E3 /* qwintoRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwintoRow.h; sourceTree = "<group>"; };
+		891B4D4522D9277700D0B5E3 /* qwintoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwintoPlayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891B4D2922D926E000D0B5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891B4D2322D926E000D0B5E3 = {
+			isa = PBXGroup;
+			children = (
+				891B4D2E22D926E000D0B5E3 /* Qwinto */,
+				891B4D2D22D926E000D0B5E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891B4D2D22D926E000D0B5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891B4D2C22D926E000D0B5E3 /* Qwinto */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891B4D2E22D926E000D0B5E3 /* Qwinto */ = {
+			isa = PBXGroup;
+			children = (
+				891B4D3D22D9277600D0B5E3 /* colour.h */,
+				891B4D4122D9277600D0B5E3 /* dice.cpp */,
+				891B4D4022D9277600D0B5E3 /* dice.h */,
+				891B4D3722D9277600D0B5E3 /* player.cpp */,
+				891B4D3922D9277600D0B5E3 /* player.h */,
+				891B4D4322D9277700D0B5E3 /* qwintoPlayer.cpp */,
+				891B4D4522D9277700D0B5E3 /* qwintoPlayer.h */,
+				891B4D4422D9277700D0B5E3 /* qwintoRow.h */,
+				891B4D4222D9277700D0B5E3 /* qwintoScoreSheet.cpp */,
+				891B4D3A22D9277600D0B5E3 /* qwintoScoreSheet.h */,
+				891B4D3F22D9277600D0B5E3 /* randomDice.cpp */,
+				891B4D3822D9277600D0B5E3 /* randomDice.h */,
+				891B4D3E22D9277600D0B5E3 /* rollOfDice.cpp */,
+				891B4D3B22D9277600D0B5E3 /* rollOfDice.h */,
+				891B4D3622D9277600D0B5E3 /* scoreSheet.cpp */,
+				891B4D3C22D9277600D0B5E3 /* scoreSheet.h */,
+				891B4D2F22D926E000D0B5E3 /* main.cpp */,
+			);
+			path = Qwinto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891B4D2B22D926E000D0B5E3 /* Qwinto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891B4D3322D926E000D0B5E3 /* Build configuration list for PBXNativeTarget "Qwinto" */;
+			buildPhases = (
+				891B4D2822D926E000D0B5E3 /* Sources */,
+				891B4D2922D926E000D0B5E3 /* Frameworks */,
+				891B4D2A22D926E000D0B5E3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qwinto;
+			productName = Qwinto;
+			productReference = 891B4D2C22D926E000D0B5E3 /* Qwinto */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891B4D2422D926E000D0B5E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TianyuSHI;
+				TargetAttributes = {
+					891B4D2B22D926E000D0B5E3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 891B4D2722D926E000D0B5E3 /* Build configuration list for PBXProject "Qwinto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 891B4D2322D926E000D0B5E3;
+			productRefGroup = 891B4D2D22D926E000D0B5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891B4D2B22D926E000D0B5E3 /* Qwinto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891B4D2822D926E000D0B5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891B4D4C22D9277700D0B5E3 /* qwintoPlayer.cpp in Sources */,
+				891B4D4622D9277700D0B5E3 /* scoreSheet.cpp in Sources */,
+				891B4D3022D926E000D0B5E3 /* main.cpp in Sources */,
+				891B4D4A22D9277700D0B5E3 /* dice.cpp in Sources */,
+				891B4D4822D9277700D0B5E3 /* rollOfDice.cpp in Sources */,
+				891B4D4B22D9277700D0B5E3 /* qwintoScoreSheet.cpp in Sources */,
+				891B4D4722D9277700D0B5E3 /* player.cpp in Sources */,
+				891B4D4922D9277700D0B5E3 /* randomDice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		891B4D3122D926E000D0B5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		891B4D3222D926E000D0B5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		891B4D3422D926E000D0B5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		891B4D3522D926E000D0B5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891B4D2722D926E000D0B5E3 /* Build configuration list for PBXProject "Qwinto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891B4D3122D926E000D0B5E3 /* Debug */,
+				891B4D3222D926E000D0B5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891B4D3322D926E000D0B5E3 /* Build configuration list for PBXNativeTarget "Qwinto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891B4D3422D926E000D0B5E3 /* Debug */,
+				891B4D3522D926E000D0B5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 891B4D2422D926E000D0B5E3 /* Project object */;
+}
